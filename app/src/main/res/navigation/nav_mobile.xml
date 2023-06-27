@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mobile"
+    app:startDestination="@id/mainActivity">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.project_eventvox.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/remind_event_beranda2"
+        android:name="com.example.project_eventvox.remind_event_beranda"
+        android:label="activity_remind_event_beranda"
+        tools:layout="@layout/activity_remind_event_beranda" />
+    <activity
+        android:id="@+id/riwayat"
+        android:name="com.example.project_eventvox.Riwayat"
+        android:label="activity_riwayat"
+        tools:layout="@layout/activity_riwayat" />
+    <activity
+        android:id="@+id/profil2"
+        android:name="com.example.project_eventvox.Profil"
+        android:label="activity_profil"
+        tools:layout="@layout/activity_profil" />
+</navigation>

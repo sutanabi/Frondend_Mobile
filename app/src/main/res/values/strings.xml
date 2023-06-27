@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Project_EVENTVOX</string>
+    <string name="email">Masukkan e-mail</string>
+    <string name="password">Masukkan kata sandi</string>
+    <string name="nama">Masukkan nama lengkap</string>
+    <string name="telepon">Masukkan nomor telepon</string>
+    <string name="konfirm_sandi">Konfirmasi kata sandi</string>
+    <string name="email_nomortelepon">E-mail atau nomor telepon</string>
+    <string name="buat_sandi_baru">Buat kata sandi baru</string>
+    <string name="email_hapus_akun">Masukkan E-Mail</string>
+    <string name="password_hapus_akun">Masukkan Password</string>
+    <string name="jenisKL">Masukkan Jenis Kelamin</string>
+    <string name="alamat">Masukkan Alamat</string>
+    <string name="divisi">Masukkan Divisi yang Anda Minati</string>
+    <string name="umur">Masukkan Umur Anda</string>
+    <string name="konfir_kata_sandi_baru"> Konfirmasi kata sandi baru</string>
+    <string name="cari">Cari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_name">TITLE NAME</string>
+    <string name="loc_name">Loc Name</string>
+    <string name="date_name">Date Name</string>
+    <string name="idr_name">IDR</string>
+    <string name="button_event">Lihat Detail</string>
+
+    <string name="Judul_1">Music of the Spheres World Tour</string>
+    <string name="keterangan_1">Konser Coldplay ini merupakan bagian dari promosi album terbaru mereka Music of the Spheres yang telah dirilis pada 2021 lalu.</string>
+    <string name="tanggal_1"> 13-15 November 2023</string>
+
+    <string name="Judul_2">Tulus, Tur Manusia</string>
+    <string name="keterangan_2">sepanjang bulan Februari ini, Tulus akan melakukan konser tur nya di beberapa kota di Indonesia. Rangkaian
+        konser dibuka pada 1 Februari lalu di Medan dan 3 Februari di Palembang. Konser ini merupakan perayaan 11 tahun penyanyi “bersuara sopran” itu</string>
+    <string name="tanggal_2">1-25 Februari 2023</string>
+
+
+</resources>

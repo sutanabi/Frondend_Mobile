@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_EVENTVOX"
+        tools:targetApi="33">
+        <activity
+            android:name=".Form_Volunteer"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_Volunteer"
+            android:exported="false" />
+        <activity
+            android:name=".detail_tiket"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_Pesanan_Event"
+            android:exported="false" />
+        <activity
+            android:name=".Metode_Pembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".tiket"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_Event"
+            android:exported="false" />
+        <activity
+            android:name=".my_item2"
+            android:exported="false" />
+        <activity
+            android:name=".navbar"
+            android:exported="false" />
+        <activity
+            android:name=".Hapus_akun_Konfirmasi"
+            android:exported="false" />
+        <activity
+            android:name=".hapus_akun"
+            android:exported="false" />
+        <activity
+            android:name=".Notifikasi"
+            android:exported="false" />
+        <activity
+            android:name=".ubah_bahasa"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profil"
+            android:exported="false" />
+        <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Riwayat_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".Riwayat"
+            android:exported="false" />
+        <activity
+            android:name=".notif_detail"
+            android:exported="false" />
+        <activity
+            android:name=".remind_volun_detail"
+            android:exported="false" />
+        <activity
+            android:name=".remind_volun_beranda"
+            android:exported="false" />
+        <activity
+            android:name=".remind_event_detail"
+            android:exported="false" />
+        <activity
+            android:name=".remind_event_beranda"
+            android:exported="false" />
+        <activity
+            android:name=".ResetKataSandi"
+            android:exported="false" />
+        <activity
+            android:name=".LupaKataSandi"
+            android:exported="false" />
+        <activity
+            android:name=".Daftar"
+            android:exported="false" />
+        <activity
+            android:name=".Masuk"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
